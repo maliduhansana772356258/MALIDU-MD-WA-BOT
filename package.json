@@ -1,10 +1,10 @@
 {
-  "name": "QUEEN-SADU-MD",
+  "name": "𝗠𝗔𝗟𝗜𝗗𝗨 𝗛𝗔𝗡𝗦𝗔𝗡𝗔-𝗠𝗗",
   "version": "1.0.0",
   "description": "A WhatsApp bot created using Node.js",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name QUEEN-SADU-MD",
+    "start": "pm2 start index.js --deep-monitoring --attach --name 𝗠𝗔𝗟𝗜𝗗𝗨 𝗛𝗔𝗡𝗦𝗔𝗡𝗔-MD",
     "stop": "pm2 stop QUEEN-SADU-MD",
     "restart": "pm2 restart QUEEN-SADU-MD"
   },
