@@ -7,7 +7,7 @@
 
 
 
-<h1>𝐐𝐔𝐄𝐄𝐍 𝐒𝐀𝐃𝐔-𝐌𝐃</h1>
+<h1>𝗠𝗔𝗟𝗜𝗗𝗨 𝗛𝗔𝗡𝗦𝗔𝗡𝗔-𝐌𝐃</h1>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
@@ -15,7 +15,7 @@
   <img src="https://i.ibb.co/h8fkrRF/In-Shot-20241129-183242921.jpg"width="300" height="300"/>
 
 
-  <𝐌𝐑 𝐃𝐈𝐍𝐄𝐒𝐇 𝐔𝐏𝐃𝐀𝐓𝐄>
+  <𝐌𝐑 𝗠𝗔𝗟𝗜𝗗𝗨𝗛𝗔𝗡𝗦𝗔𝗡𝗔 𝐔𝐏𝐃𝐀𝐓𝐄>
 
 
     
