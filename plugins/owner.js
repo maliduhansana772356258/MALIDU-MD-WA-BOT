@@ -11,14 +11,14 @@ cmd({
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
 
-let dec = `*🧸𝐃𝐀𝐑𝐊 𝐙𝐄𝐑𝐎-𝐌𝐃🧸*
+let dec = `*🧸𝗠𝗔𝗟𝗨𝗗𝗨 𝗛𝗔𝗡𝗦𝗔𝗡𝗔-𝐌𝐃🧸*
 
 > *𝙊𝙒𝙉𝙀𝙍* 
 
-*🔮 ᴏᴡɴᴇʀ ɴᴀᴍᴇ -: ʜᴀᴄᴋᴇʀ ᴛᴍ ᴏꜰᴄ (ᴅᴀʀᴋ ᴢᴇʀᴏ ᴛᴍ)*
-*🔮 ɴᴜᴍʙᴇʀ* -: 94757286833
+*🔮 ᴏᴡɴᴇʀ ɴᴀᴍᴇ -: Malidu Hansana*
+*🔮 ɴᴜᴍʙᴇʀ* -: 94772356258
 
-*©𝗗ᴀʀᴋ ᴢᴇʀᴏ-ᴍᴅ ʙʏ ᴅᴀʀᴋ ᴢᴇʀᴏ ʜᴀᴄᴋᴇʀ ᴛᴍッ💕*
+*© Mαʅιԃυ Hαɳʂαɳα Bσƚッ💕*
 `
 await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/7e1f9a45d326abc34d161.jpg`},caption:dec},{quoted:mek});
 
