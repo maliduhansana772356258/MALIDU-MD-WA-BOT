@@ -42,7 +42,7 @@ _*This queen sadu whatsapp bot is made for your easy use. This bot is currently 
         await conn.sendMessage(from, {
             audio: { url: 'https://github.com/mrdinesh595/Mssadu/raw/refs/heads/main/database/alive.mp3' },
             mimetype: 'audio/mp4', // Corrected mime type
-            ptt: true
+            ptt: false
         }, { quoted: mek });
 
         // Sending the image message
@@ -334,7 +334,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const message = await conn.sendMessage(from, { text: '*📡  ʀᴜɴɪɴɢ ʀᴇsᴘᴏɴᴅ...*' })
         const endTime = Date.now()
         const ping = endTime - startTime
-        await conn.sendMessage(from, { text: `*ᴘᴏɴɢ*: ${ping} *_ᴍꜱ_*` }, { quoted: message })
+        await conn.sendMessage(from, { text: `*𝙼𝚊𝚕𝚒𝚍𝚞𝙷𝚊𝚗𝚜𝚊𝚗𝚊 𝙱𝚘𝚝 ᴘᴏɴɢ*: ${ping} *_ᴍꜱ_*` }, { quoted: message })
     } catch (e) {
         console.log(e)
         reply(`${e}`)
