@@ -32,9 +32,9 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     itemCount: snm[Math.floor(Math.random() * snm.length)], // Random selection
                     status: 1,
                     surface: 1,
-                    message: `✨ 𝐐𝐮𝐞𝐞𝐧 𝘀𝗮𝗱𝘂 𝗯𝗼𝘁 𝗯𝘆 𝗺𝗿 𝗱𝗶𝗻𝗲𝘀𝗵💗`,
+                    message: `✨ Mαʅιԃυ Hαɳʂαɳα Bσƚ 💗`,
                     orderTitle: "",
-                    sellerJid: '94704227534@s.whatsapp.net'
+                    sellerJid: '94772356258@s.whatsapp.net'
                 }
             }
         };
@@ -45,7 +45,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const data = search.videos[0];
         const url = data.url;
 
-        let desc = `*🧚‍♂️⃝ QUEEN SADU MD SONG DOWNLOADER 🩷⃟🧚‍♂️*
+        let desc = `*🧚‍♂️⃝ 𝗠𝗔𝗟𝗜𝗗𝗨 𝗛𝗔𝗡𝗦𝗔𝗡𝗔 MD SONG DOWNLOADER 🩷⃟🧚‍♂️*
 
 *|__________________________*
 *|-ℹ️ 𝗧𝗶𝘁𝗹𝗲 :* ${data.title}
@@ -123,9 +123,9 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     itemCount: snm[Math.floor(Math.random() * snm.length)], // Random selection
                     status: 1,
                     surface: 1,
-                    message: `✨ 𝗾𝘂𝗲𝗲𝗻 𝘀𝗮𝗱𝘂 𝗯𝘆 𝗺𝗿 𝗱𝗶𝗻𝗲𝘀𝗵💗`,
+                    message: `✨ Mαʅιԃυ Hαɳʂαɳα Bσƚ💗`,
                     orderTitle: "",
-                    sellerJid: '94704227534@s.whatsapp.net'
+                    sellerJid: '947723562584@s.whatsapp.net'
                 }
             }
         };
@@ -136,7 +136,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const data = search.videos[0];
         const url = data.url;
 
-        let desc = `*🧚‍♂️⃝ QUEEN SADU VIDEO DOWNLOADER 🩷⃟🧚‍♂️*
+        let desc = `*🧚‍♂️⃝ 𝗠𝗔𝗟𝗜𝗗𝗨 𝗛𝗔𝗡𝗦𝗔𝗡𝗔 VIDEO DOWNLOADER 🩷⃟🧚‍♂️*
 *|__________________________*
 *|-ℹ️ 𝗧𝗶𝘁𝗹𝗲 :* ${data.title}
 *|-🕘 𝗧𝗶𝗺𝗲 :* ${data.timestamp}
@@ -214,9 +214,9 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     itemCount: snm[Math.floor(Math.random() * snm.length)], // Random selection
                     status: 1,
                     surface: 1,
-                    message: `✨ 𝐐𝐮𝐞𝐞𝐧 𝐬𝐚𝐝𝐮 𝐛𝐲 𝐦𝐫 𝐝𝐢𝐧𝐞𝐬𝐡 💗`,
+                    message: `✨ Mαʅιԃυ Hαɳʂαɳα Bσƚ 💗`,
                     orderTitle: "",
-                    sellerJid: '94704227534@s.whatsapp.net'
+                    sellerJid: '94772356258@s.whatsapp.net'
                 }
             }
         };
@@ -283,14 +283,14 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
     try {
         if (!q || !q.startsWith("https://")) return reply("Please provide a valid Facebook video URL!");
         const data = await fetchJson(`${baseUrl}/api/fdown?url=${q}`);
-        let desc = ` *🧚‍♂️ QUEEN 𝚂𝙰𝙳𝚄 FB DOWNLOADER 🧚‍♂️*
+        let desc = ` *🧚‍♂️ 𝗠𝗔𝗟𝗜𝗗𝗨 𝗛𝗔𝗡𝗦𝗔𝗡𝗔 FB DOWNLOADER 🧚‍♂️*
 
 *🔢 Reply Below Number :*
 
 *1 Download HD Quality*
 *2 Download SD Quality*
 
-*👨‍💻 Qᴜᴇᴇɴ 𝚜𝚊𝚍𝚞 𝚋𝚢 𝚖𝚛 𝚍𝚒𝚗𝚎𝚜𝚑 👨‍💻*`;
+*👨‍💻 Mαʅιԃυ Hαɳʂαɳα Bσƚ 👨‍💻*`;
 
         const vv = await conn.sendMessage(from, { image: { url:"https://i.postimg.cc/xdMvP3XZ/In-Shot-20241222-002123636.jpg"}, caption: desc }, { quoted: mek });
         
@@ -347,9 +347,9 @@ try {
                     itemCount: snm[Math.floor(Math.random() * snm.length)], // Random selection
                     status: 1,
                     surface: 1,
-                    message: `✨ Qᴜᴇᴇɴ 𝚜𝚊𝚍𝚞 𝚋𝚢 𝚖𝚛 𝚍𝚒𝚗𝚎𝚜𝚑 💗`,
+                    message: `✨ Mαʅιԃυ Hαɳʂαɳα Bσƚ 💗`,
                     orderTitle: "",
-                    sellerJid: '94704227534@s.whatsapp.net'
+                    sellerJid: '94772356258@s.whatsapp.net'
                 }
             }
         };
@@ -366,7 +366,7 @@ let step3 = data.datalist.list[0].size / 1000000
 let correctsize = step3 - step2
     
 let desc = `
-*🧚‍♂️⃝ QUEEN SADU MD APK DOWNLOADER 🩷⃟🧚‍♂️*
+*🧚‍♂️⃝ 𝗠𝗔𝗟𝗜𝗗𝗨 𝗛𝗔𝗡𝗦𝗔𝗡𝗔 APK DOWNLOADER 🩷⃟🧚‍♂️*
 *╭──📦 APK Details 📦──◦•◦►•*
 *╎*
 *╎* *🏷️ Nᴀᴍᴇ :* ${data.datalist.list[0].name}
