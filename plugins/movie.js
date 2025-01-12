@@ -42,7 +42,7 @@ cmd({
 *Sinhalasub Vote:* ${movieData.sinhalasubVote}\n\n
 *Description:* ${movieData.description}\n
 *Director:* ${movieData.director}\n\n
-> Powerd by : උබලගෙ සීයා.⚠️
+> Powerd by : 𝗠𝗔𝗟𝗜𝗗𝗨 𝗛𝗔𝗡𝗦𝗔𝗡𝗔 𝗠𝗗 𝗕𝗢𝗧
 `;
 
         // Send movie poster image first
