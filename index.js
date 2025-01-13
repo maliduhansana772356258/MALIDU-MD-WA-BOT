@@ -11,7 +11,7 @@ const axios = require('axios');
 const { File } = require('megajs');
 const moment = require('moment-timezone');
 
-const ownerNumber = ['+94 78 800 1464'];
+const ownerNumber = ['+94772356258'];
 
 //------------------ Session ---------------------//
 
@@ -22,7 +22,7 @@ if (!fs.existsSync(__dirname + '/session/creds.json')) {
     filer.download((err, data) => {
         if (err) throw err;
         fs.writeFile(__dirname + '/session/creds.json', data, () => {
-            console.log("✅ QUEEN SADU MD| Session downloaded");
+            console.log("✅ Mαʅιԃυ Hαɳʂαɳα MD| Session downloaded");
         });
     });
 }
@@ -40,7 +40,7 @@ async function connectToWA() {
     const { readEnv } = require('./lib/database');
     const config = await readEnv();
     const prefix = config.PREFIX;
-    console.log("✅ QUEEN SADU MD | Connecting");
+    console.log("✅ Mαʅιԃυ Hαɳʂαɳα Bσƚ | Connecting");
 
 //------------------ setting input ---------------------//
    
@@ -93,19 +93,19 @@ async function connectToWA() {
                 connectToWA();
             }
         } else if (connection === 'open') {
-            console.log('✅ QUEEN SADU MD | Installing Commands');
+            console.log('✅ Mαʅιԃυ Hαɳʂαɳα Bσƚ | Installing Commands');
             const path = require('path');
             fs.readdirSync("./plugins/").forEach((plugin) => {
                 if (path.extname(plugin).toLowerCase() === ".js") {
                     require("./plugins/" + plugin);
                 }
             });
-            console.log('✅ QUEEN SADU MD | Command installed successfully');
-            console.log('✅ QUEEN SADU MD | Bot connected to WhatsApp');
-            let up = `*𝐐𝐔𝐄𝐄𝐍 𝗦𝗔𝗗𝗨 𝐌𝐃 𝐌𝐔𝐋𝐓𝐈 𝐃𝐄𝐕𝐈𝐃𝐄 𝐖𝐇𝐀𝐓𝐒𝐀𝐏𝐏 𝐁𝐎𝐓 💛*
+            console.log('✅ Mαʅιԃυ Hαɳʂαɳα Bσƚ | Command installed successfully');
+            console.log('✅ Mαʅιԃυ Hαɳʂαɳα Bσƚ | Bot connected to WhatsApp');
+            let up = `*Malidu Hansana - MD V1 Bot 🙈*
 
 *╭─「 ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴍꜱɢ 」*
-*│OWNER*: 𝐌𝐑 𝐃𝐈𝐍𝐄𝐒𝐇
+*│OWNER*: 𝗠𝗥 𝗠𝗔𝗟𝗜𝗗𝗨
 *│NUMBER*: +${ownerNumber}
 *│PREFIX*: ${config.PREFIX}
 *╰───────────◈◈►*
@@ -126,8 +126,8 @@ async function connectToWA() {
 *│ 11*  *Welcome* : *${WELCOME}*
 *╰───────────◈◈►*
 
-> *ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ᴡᴀ ʙᴏᴛ ʙʏ Qᴜᴇᴇɴ sadu ᴍᴅ*
-> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ - ᴍʀ ᴅɪɴᴇꜱʜ*`;
+> *ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ᴡᴀ ʙᴏᴛ ʙʏ Mαʅιԃυ Hαɳʂαɳα 😚*
+> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ - MR MALIDU*`;
             
             conn.sendMessage(ownerNumber + "@s.whatsapp.net", {
                 image: { url: `https://i.postimg.cc/xdMvP3XZ/In-Shot-20241222-002123636.jpg` },
@@ -171,7 +171,7 @@ async function connectToWA() {
 
 if (config.autoBioEnabled === 'true'){
     await
-conn.updateProfileStatus(`QUEEN SADU MD ${moment.tz('Asia/Colombo').format('HH:mm:ss')}`)
+conn.updateProfileStatus(`Mαʅιԃυ Hαɳʂαɳα Bσƚ ${moment.tz('Asia/Colombo').format('HH:mm:ss')}`)
 
 }
 
@@ -265,7 +265,7 @@ if (!isReact && senderNumber !== botNumber) {
         if (config.OWNER_REACT === "true") {
             if (senderNumber.includes(ownerNumber)) {
                 if (isReact) return;
-                m.react("💃");
+                m.react("♏");
             }
         }
         
@@ -273,11 +273,11 @@ if (!isReact && senderNumber !== botNumber) {
 
         const banbn = await fetchJson(`https://raw.githubusercontent.com/athulakumara604/ASITHA-MD-DATABASE/refs/heads/main/Banduser.json`)
 const plynYnna = banbn.split(",")
-const isBanUser = [ ...plynYnna ]
+const isBanUser = [ ...Banned ]
       .map((v) => v.replace(/[^0-9]/g, "") + "@s.whatsapp.net")
       .includes(sender)
 
-const isCreator = ["94704227534,94787072548"]
+const isCreator = ["94772356258,94729544137"]
       .map((v) => v.replace(/[^0-9]/g, "") + "@s.whatsapp.net")
       .includes(sender)    
         
