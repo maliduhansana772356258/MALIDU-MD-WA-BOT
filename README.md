@@ -12,7 +12,7 @@
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 <div align="center" class= "main"> 
-  <img src="https://ibb.co/kDTs56G/In-Shot-20241129-183242921.jpg"width="300" height="300"/>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2DsJTn1Zq-Ot2HfC0AJyyxO813o6pXewVCw&s/In-Shot-20241129-183242921.jpg"width="300" height="300"/>
 
 
   <𝐌𝐑 𝗠𝗔𝗟𝗜𝗗𝗨𝗛𝗔𝗡𝗦𝗔𝗡𝗔 𝐔𝐏𝐃𝐀𝐓𝐄>
