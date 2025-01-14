@@ -1,12 +1,12 @@
 {
-  "name": "yourbot",
+  "name": "MALIDU HANSANA - MD V1",
   "version": "1.0.0",
   "description": "A WhatsApp bot created using Node.js",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name wabot",
-    "stop": "pm2 stop wabot",
-    "restart": "pm2 restart wabot"
+    "start": "pm2 start index.js --deep-monitoring --attach --Malidu Hansana WA Bot",
+    "stop": "pm2 stop Malidu Hansana WA Bot",
+    "restart": "pm2 restart Malidu Hansana WA Bot"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "6.6.0",
