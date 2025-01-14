@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name 𝗠𝗔𝗟𝗜𝗗𝗨 𝗛𝗔𝗡𝗦𝗔𝗡𝗔-MD",
-    "stop": "pm2 stop QUEEN-SADU-MD",
-    "restart": "pm2 restart QUEEN-SADU-MD"
+    "stop": "pm2 stop 𝗠𝗔𝗟𝗜𝗗𝗨 𝗛𝗔𝗡𝗦𝗔𝗡𝗔-MD",
+    "restart": "pm2 restart 𝗠𝗔𝗟𝗜𝗗𝗨 𝗛𝗔𝗡𝗦𝗔𝗡𝗔-MD"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "6.6.0",
