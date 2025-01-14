@@ -20,7 +20,7 @@ let dec = `*🧸𝗠𝗔𝗟𝗨𝗗𝗨 𝗛𝗔𝗡𝗦𝗔𝗡𝗔-𝐌𝐃�
 
 *© Mαʅιԃυ Hαɳʂαɳα Bσƚッ💕*
 `
-await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/7e1f9a45d326abc34d161.jpg`},caption:dec},{quoted:mek});
+await conn.sendMessage(from,{image:{url: `https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2DsJTn1Zq-Ot2HfC0AJyyxO813o6pXewVCw&s`},caption:dec},{quoted:mek});
 
 }catch(e){
 console.log(e)
